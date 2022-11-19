@@ -1,0 +1,84 @@
+.callback-btn {
+    background-color: white;
+    border: solid 4px #75ACD0;
+    border-radius: 15px;
+    color: #1D323F;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Century Gothic';
+}
+a{
+    text-decoration: none;
+    width:335px;
+    max-width:335px;
+}
+.call-btn {
+    background-color: white;
+    border: solid 4px #31A16A;
+    border-radius: 15px;
+    color: #1D323F;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 25px 0 0 0;
+    font-family: 'Century Gothic';
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding:10px 25px;
+    margin-top: 10px;
+    width:335px;
+    max-width:335px;
+    cursor: pointer;
+    min-height: 65px;
+}
+.buttons-wrapper {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 0 20px;
+}
+.icon-2 {
+    width: 50px;
+    max-width: 50px;
+}
+.icon-img {
+    width: 35px;
+    max-width: 35px;
+}
+@media screen and (max-width: 765px) {
+    .btn-wrapper,
+     a {
+        width: 100%;
+        max-width: 100%;
+        min-width:100%;
+    }
+    .btn-wrapper {
+        width: 100%;
+        max-width: 100%;
+        min-width:100%;
+        padding:10px 15px;
+    }
+    .btn-wrapper a button{
+        width: 100%;
+        max-width: 100%;
+    }
+    .callback-btn {
+       font-size: 17px;
+    }
+    .call-btn {
+       font-size: 17px;        
+    }
+    .buttons-wrapper {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+}

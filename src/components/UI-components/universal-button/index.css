@@ -1,0 +1,13 @@
+.defaultBtnWrapper {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 10px;
+}
+.defaultBtn {
+    padding:10px 20px;
+    border: none;
+    background-color: rgb(96, 238, 13);
+    color: black;
+    border-radius: 5px;
+}

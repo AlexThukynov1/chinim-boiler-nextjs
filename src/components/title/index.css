@@ -1,0 +1,22 @@
+.title-component {
+    text-align: center;
+    margin: 10px 0 10px 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 900;
+    color:#1D323F;
+    font-family: 'Myriad Pro';
+    color:#fff;
+}
+.title-wrapper {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: #6A82AA;
+    padding: 10px;
+}
+@media screen and (max-width: 900px) {
+    .title-component {
+        font-size: 21px;
+    } 
+}
