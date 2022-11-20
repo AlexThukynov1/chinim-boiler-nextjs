@@ -1,0 +1,70 @@
+.aboutScreen {
+    display:flex;
+    flex-direction: column;
+}
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 20px 40px;
+}
+.abuListWrapper {
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:10px;
+    margin: 5px 0;
+}
+.abuListIcon {
+    width:10px;
+    max-width: 10px;
+}
+.abuListText {
+    text-align: left;
+    color:#1D323F;
+    font-family: 'Century Gothic';
+}
+.iconWrapper {
+    width: 10px;
+    max-width: 10px;
+}
+.abuText {
+    color:#1D323F;
+    padding-top: 10px;
+    text-align: justify;
+    width:400px;
+    font-family: 'Century Gothic';
+    width: 100%;
+}
+.boylerImgWrapper {
+    max-width: 900px;
+    width: 100%;
+    padding-top: 20px;
+}
+.boylerImg {
+    max-width: 900px;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .abuText {
+        width: 100%;
+        text-align: left;
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    .contentWrapper {
+        padding: 20px 0 40px;
+    }
+    .abuListWrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .abuText {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

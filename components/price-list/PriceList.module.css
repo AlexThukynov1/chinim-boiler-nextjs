@@ -1,0 +1,14 @@
+.priceList {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 900px;
+    width: 900px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 900px) {
+    .priceList {
+        width: 100%;
+        max-width: 100%;
+    } 
+}

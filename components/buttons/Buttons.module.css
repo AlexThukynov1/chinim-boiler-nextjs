@@ -1,0 +1,104 @@
+.callbackBtn {
+    background-color: white;
+    border: solid 4px #75ACD0;
+    border-radius: 15px;
+    color: #1D323F;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Century Gothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding:10px 25px;
+    margin-top: 10px;
+    width:335px;
+    max-width:335px;
+    cursor: pointer;
+    min-height: 65px;
+}
+.btnLink{
+    text-decoration: none;
+    width:335px;
+    max-width:335px;
+}
+.callBtn {
+    background-color: white;
+    border: solid 4px #31A16A;
+    border-radius: 15px;
+    color: #1D323F;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 25px 0 0 0;
+    font-family: 'Century Gothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding:10px 25px;
+    margin-top: 10px;
+    width:335px;
+    max-width:335px;
+    cursor: pointer;
+    min-height: 65px;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding:10px 25px;
+    margin-top: 10px;
+    width:335px;
+    max-width:335px;
+    cursor: pointer;
+    min-height: 65px;
+}
+.buttonsWrapper {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 0 20px;
+}
+.icon2 {
+    width: 50px;
+    max-width: 50px;
+}
+.iconImg {
+    width: 35px;
+    max-width: 35px;
+}
+@media screen and (max-width: 765px) {
+    .btnWrapper,
+    .btnLink {
+        width: 100%;
+        max-width: 100%;
+        min-width:100%;
+    }
+    .btnWrapper {
+        width: 100%;
+        max-width: 100%;
+        min-width:100%;
+        padding:10px 15px;
+    }
+    .btnWrapper a button{
+        width: 100%;
+        max-width: 100%;
+    }
+    .callbackBtn {
+       font-size: 17px;
+    }
+    .callBtn {
+       font-size: 17px;        
+    }
+    .buttonsWrapper {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+}

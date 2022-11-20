@@ -1,0 +1,46 @@
+
+.contactScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px;
+    width:100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #6A82AA;
+}
+.contactTitle {
+    color:#fff;
+    font-family: 'Myriad Pro';
+    font-size: 21px;
+}
+.contactSubTitle {
+    color:#fff;
+    font-family: 'Myriad Pro';
+    font-size: 15px;
+    margin-top: 5px;
+}
+.contactText {
+    color:#fff;
+    font-family: 'Myriad Pro';
+    font-size: 15px;
+    margin-top: 1px;
+}
+.line {
+    color:#fff;
+    height: 2px;
+    width: 100%;
+    max-width: 100%;
+}
+.btnsWrapper {
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 0px;
+  }
+@media screen and (max-width: 900px) {
+    
+}

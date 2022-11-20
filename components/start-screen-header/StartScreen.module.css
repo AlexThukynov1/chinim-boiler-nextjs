@@ -1,0 +1,27 @@
+.startScreenHeader {
+    padding: 20px 20px 0 20px;
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items:center;
+}
+
+.logoWrapper {
+    max-width:150px;
+    width: 100%px;
+}
+.logoImg {
+    width: 100%;
+    max-width:150px;
+}
+@media screen and (max-width: 900px)  {
+    .logoWrapper {
+        max-width: 75%;
+    }
+    .logoImg {
+       width: 100%;
+       max-width: 100%; 
+    }
+}
